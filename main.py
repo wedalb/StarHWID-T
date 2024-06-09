@@ -23,6 +23,7 @@ def getchecksum():
     except FileNotFoundError:
         return "file not found"
 
+
 keyauthapp = api(
     name = "StarHWID", # Application Name
     ownerid = "kFCjdGnD1j", # Owner ID
