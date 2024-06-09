@@ -23,13 +23,12 @@ def getchecksum():
     except FileNotFoundError:
         return "file not found"
 
-# Initialize KeyAuth with your application details
 keyauthapp = api(
-    name="Spooftest",
-    ownerid="iNmkUchuKR",
-    secret="626713143e7969d9d7455ffbde8294c836b4a222b7a215471c0922801977c19f",
-    version="1.0",
-    hash_to_check=getchecksum()
+    name = "StarHWID", # Application Name
+    ownerid = "kFCjdGnD1j", # Owner ID
+    secret = "cbea2b1e4533de12fa903beb2a4566e52c7c22e72cb9247b5cab449883e13235", # Application Secret
+    version = "1.0", # Application Version
+    hash_to_check = getchecksum()
 )
 
 def check_license():

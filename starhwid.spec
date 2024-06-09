@@ -2,6 +2,7 @@
 
 
 
+
 a = Analysis(
     ['starhwid.py'],
     pathex=['.'],  # Include the current directory
